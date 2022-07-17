@@ -1,0 +1,33 @@
+@import url("footer.css");
+@import url("header.css");
+@import url("main.css");
+@import url("main_register.css");
+@import url("main_login.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: 12px;
+}

@@ -1,0 +1,82 @@
+#main-register {
+  height: 70vh;
+}
+#register-form {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+#nacimiento,
+#perfil-usuario,
+#categorias-interes,
+#foto-perfil,
+#ingrese-contraseña,
+#confirme-contraseña {
+  display: flex;
+}
+
+#nacimiento {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#nacimiento label {
+  margin-bottom: 5px;
+}
+
+#perfil-usuario {
+  position: relative;
+}
+
+#perfil-label {
+  position: relative;
+  right: -22%;
+}
+
+.opciones-perfil-label {
+  position: relative;
+  top: 110%;
+  left: -17%;
+}
+
+#categorias-interes {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: -2%;
+}
+
+#foto-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#foto-perfil label {
+  margin-bottom: 2%;
+}
+
+#ingrese-contraseña {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: -2%;
+}
+
+#confirme-contraseña {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: -2%;
+}

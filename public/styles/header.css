@@ -1,0 +1,146 @@
+header {
+  background-color: #eac926;
+  width: 100vw;
+}
+
+.burger-menu {
+  font-size: 2em;
+  display: block;
+  background-color: #03264c;
+  max-width: 40px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+#lupa-icono,
+#mano-dolar,
+#tarjeta-identificacion,
+#flecha-ingreso,
+#canasta {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#lupa-icono {
+  background-color: #ebebeb;
+  display: block;
+  max-width: 35px;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #03264c;
+}
+
+.header-main-text {
+  text-align: center;
+  font-size: 18px;
+}
+
+#main-header-top-and-mid-bar {
+  display: flex;
+}
+#main-header-top-bar {
+  flex-grow: 0.66;
+}
+#main-header-mid-bar {
+  flex-grow: 0.33;
+}
+#main-header-bottom-bar nav {
+  display: flex;
+  justify-content: space-between;
+}
+#main-header-bottom-bar nav ul {
+  flex-grow: 0.35;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-header-bottom-bar {
+  display: none;
+}
+
+#main-header-top-bar {
+  display: flex;
+}
+
+#main-header-top-bar a {
+  flex-grow: 0.5;
+}
+
+#main-header-top-bar form {
+  flex-grow: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+#main-header-top-bar form input {
+  max-height: 2rem;
+  max-width: 30vw;
+}
+
+@media (min-width: 361px) {
+  #main-header-bottom-bar {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+  #main-header-bottom-bar {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  #main-header-bottom-bar {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+#header-picture-bar img {
+  margin-top: 20px;
+  position: relative;
+  top: 6px;
+}
+
+/* header h4 {
+  font-size: 24px;
+}
+
+.burger-menu {
+  background-color: #03264c;
+  color: rgb(255, 255, 255);
+  max-width: 50px;
+  padding: 15px 0px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+}
+
+.main-header {
+  background-color: #eac926;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo picture img {
+  width: 50%;
+  flex-grow: 30%;
+}
+
+.barra-busqueda {
+  flex-grow: 70%;
+} */

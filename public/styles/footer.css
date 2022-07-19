@@ -21,7 +21,7 @@ footer {
   margin-bottom: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1280px) {
   .footer-section {
     display: flex;
     justify-content: space-around;

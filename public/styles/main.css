@@ -100,7 +100,7 @@ main {
   display: none;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 769px) {
   .descripcion {
     display: block;
     color: #fff;
@@ -131,7 +131,7 @@ main {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1280px) {
   #second-visit-article,
   #third-visit-article,
   #fourth-visit-article,
